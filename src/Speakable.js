@@ -1,4 +1,3 @@
-var util = require('util');
 require('colors');
 
 var currentSpeaker;
@@ -21,11 +20,11 @@ function Speakable() {
 	};
 
 	this.say = function(phrase) {
-		return util.print(coloredOutput(this.getSpeakerOutput() + '- ' + phrase + "\n"));
+		return console.log(coloredOutput(this.getSpeakerOutput() + '- ' + phrase + "\n"));
 	};
 
 	this.explainError = function(err) {
-		return util.print(coloredOutput(this.getSpeakerOutput() + '- Sorry, but ' + err + "\n"));
+		return console.log(coloredOutput(this.getSpeakerOutput() + '- Sorry, but ' + err + "\n"));
 	};
 
   this.getSpeakerOutput = function() {

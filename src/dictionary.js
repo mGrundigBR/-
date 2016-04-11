@@ -4,24 +4,26 @@ var _ = require('underscore');
 
 module.exports = {
   titles: {
-    objective: ['objective', 'objectives'],
-    summary: ['summary'],
-    technology: ['technology', 'technologies'],
-    experience: ['experience'],
-    education: ['education'],
-    skills: ['skills', 'Skills & Expertise', 'technology', 'technologies'],
+    objective: ['objective', 'objectives', 'objectif'],
+    summary: ['summary', 'résume', 'resume'],
+    technology: ['informatique', 'technologies'],
+    experience: ['expérience', 'Expérience', 'experience'],
+    education: ['formation', 'Formation', 'education', 'Diplôme', 'diplôme'],
+    skills: ['skills', 'skills & expertise', 'technology', 'technologies', 'compétence', 'Compétence'],
     languages: ['languages'],
-    courses: ['courses'],
+    courses: ['courses', 'cours'],
     projects: ['projects'],
     links: ['links'],
     contacts: ['contacts'],
     positions: ['positions', 'position'],
     profiles: ['profiles', 'social connect', 'social-profiles', 'social profiles'],
-    awards: ['awards'],
+    awards: ['awards', 'prix', 'bourse'],
     honors: ['honors'],
     additional: ['additional'],
-    certification: ['certification', 'certifications'],
-    interests: ['interests']
+    certification: ['certification', 'certifications', 'certificat'],
+    interests: ['interests', 'intérêt'],
+    hobbies: ['hobbies', 'hobby', 'Hobby', 'Hobbies', 'intérêt', 'Centres d', 'centres d']
+
   },
   profiles: [
     ['github.com', function(url, Resume, profilesWatcher) {

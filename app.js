@@ -7,8 +7,6 @@ setTimeout(main, 2000);
 
 function main() {
   console.log('------------------------------------------------------------------------------------'.bgBlue.blue);
-  console.log('                           Somewhere in big & cool company...                       '.bgBlue.gray);
-  console.log('------------------------------------------------------------------------------------'.bgBlue.blue);
   console.log('');
   var getFileNames = function (filePaths) {
     return filePaths.map(function (file) {
@@ -51,7 +49,6 @@ function main() {
             ParseBoy.say('You are welcome, have a nice day!');
 
             console.log('');
-            console.log('------------------------------------------------------------------------------------'.bgBlue.blue);
             console.log('                                        The End!                                    '.bgBlue.gray);
             console.log('------------------------------------------------------------------------------------'.bgBlue.blue);
           }
